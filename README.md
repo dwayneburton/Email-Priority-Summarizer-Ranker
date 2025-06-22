@@ -1,1 +1,2 @@
-# Email-Priority-Summarizer-Ranker
+# Email Priority Summarizer Ranker
+**Email Insight** is a full-stack web app developed at **Hack the North 2023** that connects to a user's Gmail via OAuth, retrieves email content, summarizes it using the Cohere API, and ranks messages based on urgency. It features a React frontend and Python-based Google Cloud Functions backend, with secure Google authentication and AI-powered summarization and ranking logic.
