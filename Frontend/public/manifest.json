@@ -1,0 +1,15 @@
+{
+  "short_name": "Email Insight",
+  "name": "Email Insight - Hack the North 2023",
+  "icons": [
+    {
+      "src": "envelope-simple.png",
+      "type": "image/png",
+      "sizes": "64x64 32x32 24x24 16x16"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000s",
+  "background_color": "#ffffff"
+}

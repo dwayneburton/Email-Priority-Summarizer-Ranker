@@ -1,0 +1,135 @@
+/* Global App Styles */
+.App {
+  text-align: center;
+}
+
+/* Logo styles and animation */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styling for the main app container */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Link styling */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframes for spinning logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Summary Section Styling */
+.Summary-background{
+  background: #b2b2b2;
+  width: 100%;
+  height: 100vh;
+}
+
+.Summary-heading{
+  background-color: #2f4072;
+  color: white; 
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px; 
+}
+
+.Summary-display{
+  background-color: #445ea9;
+}
+
+.side-line {
+  border-left: 6px solid #445ea9;
+  height: 100%;
+}
+
+/* Footer Section */
+.Footer{
+  background-color: #2f4072;
+  margin: auto;
+  padding: 25px;
+}
+
+/* Login Page Styling */
+.Login{
+  background: linear-gradient(to bottom, #cacaca, #606c8f);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Login-block{
+  width: 35%;
+  height: 35%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  
+}
+
+/* Google login button wrapper */
+#signInButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Centering utility class */
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Custom styles for Google login button */
+.google-button{
+  margin: 0 auto;
+}
+
+/* Larger button variant */
+.large-button {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Responsive Media Queries */
+@media screen and (min-width: 768px) {
+  .Summary-heading{
+    margin-top: 90px;
+  }
+
+  .Footer{
+    margin-bottom: 90px; 
+    padding: 45px;
+  }
+}

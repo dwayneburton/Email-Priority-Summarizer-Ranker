@@ -1,0 +1,23 @@
+{
+  "name": "email-insight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "functions-framework --target=helloWorld"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwayneburton/HTN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwayneburton/HTN/issues"
+  },
+  "homepage": "https://github.com/dwayneburton/HTN#readme",
+  "dependencies": {
+    "base64url": "^3.0.1"
+  }
+}
